@@ -1,0 +1,12 @@
+{
+  "main": {
+    "links": [
+      {
+        "title":"Admin",
+        "route_name": "admin",
+        "url": "/admin",
+        "icon": "dashboard"
+      }
+    ]
+  }
+}
