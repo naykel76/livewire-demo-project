@@ -1,4 +1,7 @@
 {
+  "_comment1": "exclude_route to prevents route creation, typically handled somewhere else",
+  "_comment2": "If view is omitted, then url is the default view directory path",
+  "_comment3": "",
   "main": {
     "links": [
       {

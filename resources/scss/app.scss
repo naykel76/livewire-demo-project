@@ -1,9 +1,6 @@
-// ----- ORDER MATTERS -----
-// Load colors first then variable files to enable overrides
+@use "~nk_jtb/src/scss/base/vars_colors" as *; // with ( $primary: #6233cd,);
+@use "~nk_jtb/src/scss/base/vars_base" as *; // with ($base-font-size: 0.875rem);
+@use "~nk_jtb/src/scss/base/vars_components" as *; // with ($navbar-bg: $primary,);
+// @use "~nk_jtb/src/scss/mixins/media" as *;
 
-@use "~nk_jtb/scss/abstracts/colors" as *; // with ($primary: #7c0442, $secondary: #fff4e5);
-// @use "~nk_jtb/scss/base/vars_base" as *; // with($link-color: $primary);
-// @use "~nk_jtb/scss/base/vars_components" as *; // with($navbar-bg: $primary);
-// @use "~nk_jtb/scss/mixins/media" as *;
-
-@use "~nk_jtb/scss/jtb";
+@use "~nk_jtb/src/scss/jtb";
