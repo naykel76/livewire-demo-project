@@ -13,20 +13,16 @@
   - [x] Reusable Search/Sort toolbar component
   - [x] WithSorting trait
 
-
 - [ ] CRUD functions
-  - [ ] Validation with custom error messages
-  - [ ] Create
-  - [ ] Edit
-  - [ ] Save (for both create and edit)
-  - [ ] Delete
+  - [ ] custom validation error messages
+  - [x] Create
+  - [x] Edit
+  - [x] Save (for both create and edit)
+  - [x] Delete
+  - [x] Modal (Alpine)
   - [ ] Event notifications
   - [ ] Edit row inline
   - [ ] Edit field inline
-
-
-- [ ] Modal (the Livewire way)
-- [ ] Modal (with Alpine)
 
 
 - [ ] Refactor for re-usability

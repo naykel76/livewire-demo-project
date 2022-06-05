@@ -13,6 +13,12 @@ class Order extends Model
 
     public $timestamps = false;
 
+    const STATUSES = [
+        'success' => 'Success',
+        'failed' => 'Failed',
+        'processing' => 'Processing',
+    ];
+
     protected $casts = [
         'order_date' => \Naykel\Gotime\Casts\DateCast::class,
         'amount' => \Naykel\Gotime\Casts\CurrencyCast::class,

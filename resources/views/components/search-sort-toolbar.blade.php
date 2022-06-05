@@ -18,4 +18,13 @@
         </x-select>
     </div>
 
+    <div class="fg1 tar">
+        <button wire:click="create" class="btn primary">
+            <svg class="icon">
+                <use href="/svg/naykel-ui-SVG-sprite.svg#plus-round-o"></use>
+            </svg>
+            <span>New</span>
+        </button>
+    </div>
+
 </div>
