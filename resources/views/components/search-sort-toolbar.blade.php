@@ -11,7 +11,7 @@
     </div>
 
     <div>
-        <x-select wire:model="perPage" id="perPage" label="Per Page" inline>
+        <x-select wire:model="perPage" for="perPage" label="Per Page" inline>
             @foreach($paginateOptions as $option)
                 <option value="{{ $option }}">{{ $option }}</option>
             @endforeach
