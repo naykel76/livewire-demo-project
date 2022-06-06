@@ -68,6 +68,9 @@ class OrderTable extends Component
         $this->editing->save();
 
         $this->showModal = false;
+
+        $this->dispatchBrowserEvent('notify', 'Saved!');
+
     }
 
     public function delete($id): void
@@ -81,6 +84,8 @@ class OrderTable extends Component
      * create dummy model to avoids errors, and set default
      * values
      */
+
+    //  how can i make this reusable ???
     public function makeBlankTransaction()
     {
         // make() a blank instance of the model but does not

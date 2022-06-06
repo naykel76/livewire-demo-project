@@ -3090,16 +3090,32 @@ form.inline textarea {
   width: min(200px, 95%);
 }
 
+.maxw200 {
+  max-width: 200px;
+}
+
 .minw300 {
   width: min(300px, 95%);
+}
+
+.maxw300 {
+  max-width: 300px;
 }
 
 .minw400 {
   width: min(400px, 95%);
 }
 
+.maxw400 {
+  max-width: 400px;
+}
+
 .minw600 {
   width: min(600px, 95%);
+}
+
+.maxw600 {
+  max-width: 600px;
 }
 
 .mx-0 {
